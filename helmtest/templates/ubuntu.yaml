@@ -8,7 +8,7 @@ spec:
   - image: ubuntu:xenial
     env:
     - name: myglobalservicetype
-      value: {{ .Values.values.yaml.global.service.type }}
+      value: {{ .Values.values.yaml.global.service }}
     imagePullPolicy: Always
     name: ubuntufleetpod 
     resources: {}
