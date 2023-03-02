@@ -8,9 +8,12 @@ spec:
   - image: ubuntu:xenial
     env:
     - name: myglobalservicetype
-      value: {{ .Values.values.yaml.global.service }}
+      value: {{ .Values.global.service.type }}
     imagePullPolicy: Always
     name: ubuntufleetpod 
+    ports:
+    - containerPort: {{ .Values.global.containerPort }}
+      name: http
     resources: {}
     securityContext:
       allowPrivilegeEscalation: false
