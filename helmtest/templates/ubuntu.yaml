@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntufleetpod
+  name: ubuntufleetpodhelm
   namespace: default
 spec:
   containers:
