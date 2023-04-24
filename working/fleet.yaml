@@ -1,0 +1,8 @@
+targetCustomizations:
+  - name: working
+    namespace: working-namespace
+    helm:
+       chart: ./chart
+    clusterSelector:
+       matchLabels:
+          production: 'true'
