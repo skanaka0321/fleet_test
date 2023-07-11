@@ -4,4 +4,4 @@ helm:
   valuesFiles: 
   - core-values.yaml
   values:
-    val1: test
+    val1: global.fleet.clusterLabels.val1
