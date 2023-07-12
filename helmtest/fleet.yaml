@@ -1,7 +1,0 @@
-helm:
-  valuesFrom:
-  - configMapKeyRef:
-      name: configmap-values
-      # default to namespace of bundle
-      namespace: default 
-      key: values.yaml
