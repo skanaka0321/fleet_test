@@ -3,5 +3,3 @@ helm:
   releaseName: test
   valuesFiles: 
   - core-values.yaml
-  values:
-    val1: global.fleet.clusterLabels.namecluster
