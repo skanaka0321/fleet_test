@@ -1,0 +1,34 @@
+kubectl:
+  initResources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+    limits:
+      cpu: 100m
+      memory: 128Mi
+  resources:
+    requests:
+      cpu: 10m
+      memory: 64Mi
+    limits:
+      cpu: 100m
+      memory: 128Mi
+
+restic:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 512Mi
+    limits:
+      cpu: 1
+      memory: 2512Mi
+  tolerations:
+  - operator: Exists
+    effect: NoSchedule
+
+credentials:
+  secretContents:
+    cloud: |
+      [sandbox-rex-sddc]
+      aws_access_key_id = x-k8s-sandbox-rex-sddc-save-s3
+      aws_secret_access_key = +uH4hYJGtEz5uF9YZL5q7f8hE31kt8ItUr/nBI4I
