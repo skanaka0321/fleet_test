@@ -1,5 +1,0 @@
-defaultNamespace: test-ef
-helm:
-  releaseName: test
-  valuesFiles: 
-  - core-values.yaml
