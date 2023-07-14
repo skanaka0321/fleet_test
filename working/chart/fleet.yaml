@@ -1,6 +1,8 @@
 defaultNamespace: test-ef
 helm:
   releaseName: test
-  #valuesFiles: [core-values.yaml]
+  valuesFiles:
+  - core-values.yaml
   values:
-    val1: "test"
+    val1: "global.fleet.clusterLabels.namecluster"
+
