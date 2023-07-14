@@ -3,5 +3,3 @@ helm:
   releaseName: testing
   valuesFiles: 
   - core-values.yaml
-  values:
-    val1: test
