@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   key1: {{ .Values.val1 }}
   cred: "{{ ((.Values.credentials).secretContents).cloud }}"
-  one: "{{ .Values.hello }}"
+  one: {{ .Values.hello }}
 kind: ConfigMap
 metadata:
   name: siva-config
