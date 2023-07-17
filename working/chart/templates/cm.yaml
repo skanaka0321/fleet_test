@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   key1: {{ .Values.key1 }}
-  cred: {{ .Values.credentials.secretContents.cloud | quote }}
+  cred: {{ .Values.credentials | quote }}
   one: {{ .Values.hello | quote }}
 kind: ConfigMap
 metadata:
