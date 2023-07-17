@@ -5,5 +5,5 @@ helm:
   - core-values.yaml
   - core-values2.yaml
   values:
-    val1: "global.fleet.clusterLabels.namecluster"
+    key1: "global.fleet.clusterLabels.namecluster"
 
