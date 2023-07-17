@@ -79,4 +79,3 @@ tolerations: []
 affinity: {}
 
 key1: siva
-hello: defaultvalue
