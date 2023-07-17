@@ -79,5 +79,3 @@ tolerations: []
 affinity: {}
 
 val1: siva
-cred: none
-one: none
