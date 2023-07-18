@@ -1,7 +1,0 @@
-defaultNamespace: test-siva
-helm:
-  releaseName: test-siva
-  valuesFiles: 
-  - core-values.yaml
-  values:
-    val1: global.fleet.clusterLabels.namecluster
