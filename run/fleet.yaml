@@ -1,4 +1,4 @@
-defaultNamespace: test-ef
+defaultNamespace: test-efs
 helm:
   releaseName: test
   valuesFiles: 
