@@ -2,6 +2,7 @@ defaultNamespace: test-ef
 helm:
   releaseName: test
   valuesFiles: 
+  - values.yaml
   - core-values.yaml
   values:
     val1: "test"
