@@ -79,3 +79,4 @@ tolerations: []
 affinity: {}
 
 val1: test
+cred: default-value
