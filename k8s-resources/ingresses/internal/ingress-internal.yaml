@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: nginx-ingress-internal
-  namespace: customNamespaceName
+  namespace: example-namespace
 spec:
   rules:
     - host: nginx-internal.example.com
