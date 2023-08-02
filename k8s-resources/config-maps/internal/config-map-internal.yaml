@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-config-map-internal
-  namespace: customNamespaceName
+  namespace: example-namespace
 data:
   nginx.conf: |
     server {
