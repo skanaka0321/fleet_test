@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config-map-external
+  namespace: example-namespace
+data:
+  nginx.conf: |
+    server {
+      listen 80;
+      server_name nginx.example.com;
+
+      location / {
+        root /usr/share/nginx/html;
+        index index.html;
+      }
+    }

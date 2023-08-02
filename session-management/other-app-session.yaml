@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: other-app-deployment
+  namespace: example-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: other-app
+  template:
+    metadata:
+      labels:
+        app: other-app
+    spec:
+      containers:
+        - name: other-app
+          image: httpd:latest
