@@ -1,0 +1,4 @@
+apiVersion: v2
+name: guestbook
+description: A Helm chart for the guestbook application
+version: 0.1.0
