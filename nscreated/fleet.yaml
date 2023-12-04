@@ -1,6 +1,5 @@
 #namespace: fleet-mc-helm-example-dev
-defaultNamespace: test04
+defaultNamespace: test05
 namespaceLabels:
- satya: test
  pod-security.kubernetes.io/enforce: privileged
  pod-security.kubernetes.io/enforce-version: latest
