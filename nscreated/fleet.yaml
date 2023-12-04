@@ -1,7 +1,7 @@
 #namespace: fleet-mc-helm-example-dev
 defaultNamespace: sivaji
 namespaceLabels:
+ name: sivaji
  pod-security.kubernetes.io/enforce: privileged
  pod-security.kubernetes.io/enforce-version: latest
-helm: 
-  takeOwnership: true 
+
