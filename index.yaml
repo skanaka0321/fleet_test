@@ -4,5 +4,4 @@ entries:
   - apiVersion: v2
     name: fleetignore
     sources: https://github.com/skanaka0321/fleet_test/blob/main
-    urls:
-    - https://github.com/skanaka0321/fleet_test/tree/main/fleetignore
+    urls: https://github.com/skanaka0321/fleet_test/tree/main/fleetignore
