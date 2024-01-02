@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
-  fleetignore:
+  nscreated:
   - apiVersion: v2
-    name: fleetignore
+    name: nscreated
     urls: 
-    - fleetignore
+    - redis.tgz
