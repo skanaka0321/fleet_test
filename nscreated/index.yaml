@@ -4,4 +4,4 @@ entries:
   - apiVersion: v2
     name: nscreated
     urls: 
-    - redis.tgz
+    - nscreated
