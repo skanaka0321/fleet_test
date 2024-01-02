@@ -1,7 +1,0 @@
-apiVersion: v1
-entries:
-  nscreated:
-  - apiVersion: v2
-    name: nscreated
-    urls: 
-    - nscreated
