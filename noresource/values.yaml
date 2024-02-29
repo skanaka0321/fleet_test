@@ -4,7 +4,7 @@ global:
     useAppArmor: false
   priorityClassName: system-cluster-critical
 installCRDs: true
-replicaCount: 2
+replicaCount: 1
 image:
   pullPolicy: Always
 resources:
@@ -16,7 +16,7 @@ resources:
     memory: 512Mi
 
 webhook:
-  replicaCount: 2
+  replicaCount: 1
   image:
     pullPolicy: Always
   resources:
@@ -28,7 +28,7 @@ webhook:
       memory: 256Mi
 
 cainjector:
-  replicaCount: 2
+  replicaCount: 1
   image:
     pullPolicy: Always
   resources:
